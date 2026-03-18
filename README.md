@@ -99,7 +99,7 @@ This step helped move beyond training into **understanding model behavior**.
 ---
 
 ## 🗂️ Project Structure
----
+
 deep-learning-instructor-labs/
 │
 ├── data/
@@ -128,7 +128,7 @@ deep-learning-instructor-labs/
 │ └── utils.py
 │
 └── README.md
----
+
 
 ---
 
