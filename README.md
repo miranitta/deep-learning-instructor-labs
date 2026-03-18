@@ -99,7 +99,7 @@ This step helped move beyond training into **understanding model behavior**.
 ---
 
 ## 🗂️ Project Structure
-
+```
 deep-learning-instructor-labs/
 │
 ├── data/
@@ -129,7 +129,7 @@ deep-learning-instructor-labs/
 │
 └── README.md
 
-
+```
 ---
 
 ## 🚀 How to Run
@@ -140,15 +140,16 @@ deep-learning-instructor-labs/
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 2. Train the model
-
+```bash
 python src/train.py --model resnet --epochs 15 --batch-size 64 --lr 0.001
-
+```
 3. Evaluate the model
-
+```bash
 python src/evaluate.py --model-path results/models/resnet_best.pt
-
+```
 ## 📷 Visual Results
 
 ### Training Curve
