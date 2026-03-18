@@ -150,6 +150,10 @@ python src/train.py --model resnet --epochs 15 --batch-size 64 --lr 0.001
 ```bash
 python src/evaluate.py --model-path results/models/resnet_best.pt
 ```
+3. Streamlit demo
+```bash
+streamlit run demos/streamlit_app.py
+```
 ## 📷 Visual Results
 
 ### Training Curve
